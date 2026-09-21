@@ -13,6 +13,8 @@ void main() {
                 Colors.black,
                 Colors.redAccent,
               ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: Center(
