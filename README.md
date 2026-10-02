@@ -1,17 +1,42 @@
-# first_flutter_app
+# Лабораторная работа №3. Знакомство с Flutter
 
-A new Flutter project.
+Репозиторий содержит материалы лабораторной работы по разработке кроссплатформенного Web-приложения на Flutter. 
 
-## Getting Started
+## Информация об авторе
+* **ФИО:** Шкурский Максим Витальевич 
+* **Группа:** ИСП-242
 
-This project is a starting point for a Flutter application.
+## Стек технологий и версии
+* **Фреймворк:** Flutter 3.47.4
+* **Язык программирования:** Dart 3.13.3
+* **Платформа сборки:** Web (Браузер Chrome)
+* **Среда разработки (IDE):** VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот работающего приложения
+![Внешний вид лабораторной](/img/step9_shkurskii.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Инструкция по запуску
+1. Склонируйте репозиторий себе на пк:
+   ```
+   git clone <ссылка_на_репозиторий>
+   ```
+2. Перейдите в директорию с проектом:
+   ```
+   cd Flutter_Lab3
+   ```
+3. Загрузите необходимые зависимости проекта:
+   ```
+   flutter pub get
+   ```
+4. Запустите приложение в браузере Chrome:
+   ```
+   flutter run -d chrome
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что я узнал и чему научился
+1. Разобрался, из чего состоит проект на Flutter, зачем нужны основные папки и куда писать свой код.
+2. Понял главный принцип Flutter: весь интерфейс собирается как конструктор из вложенных друг в друга деталей.
+3. Научился выводить текст на экран, выравнивать его по центру и делать красивый фон с градиентом.
+4. Узнал, как настраивать шрифт: менять его размер, цвет и делать жирным.
+5. Научился пользоваться инструментами в VS Code: запускать приложение кнопками прямо из кода, отключать надпись "DEBUG" и смотреть, как устроена программа через Flutter Inspector.
+
