@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Text(
-        'Привет! Меня зовут Максим.\nЯ студент группы ИСП-242.',
+    MaterialApp(
+      home: Scaffold(
+        body: Column(
+          children: [
+            Text('Привет! Меня зовут Максим. Я студент группы ИСП-242.'),
+            Image.network('https://srisovki.ru/wp-content/uploads/2025/05/tun-sahur.webp'),
+          ],
+        ),
       ),
     ),
   );
